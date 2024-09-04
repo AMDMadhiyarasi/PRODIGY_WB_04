@@ -1,0 +1,162 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9; /* Light grey background */
+    color: #333; /* Dark grey text */
+}
+
+/* Navigation */
+nav {
+    background-color: #2C3E50; /* Dark blue-grey */
+    padding: 20px 0;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ECF0F1; /* Light grey */
+    text-decoration: none;
+}
+
+nav .nav-links {
+    list-style: none;
+    display: flex;
+}
+
+nav .nav-links li {
+    margin-left: 20px;
+}
+
+nav .nav-links a {
+    color: #ECF0F1;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav .nav-links a:hover {
+    color: #f76c6c; /* Accent color for hover */
+}
+
+nav .hamburger {
+    display: none;
+}
+
+/* Home Section */
+#home {
+    background-color: #34495E; /* Medium blue-grey */
+    color: #ECF0F1;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-text h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.home-text p {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: #f76c6c; /* Soft red */
+    color: #ECF0F1;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #d65a5a; /* Darker red */
+}
+
+/* About Me Section */
+#about {
+    background-color: #ECF0F1;
+    color: #34495E;
+    padding: 60px 0;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-text, .about-skills {
+    flex-basis: 45%;
+    margin-bottom: 30px;
+}
+
+.about-text p {
+    margin-bottom: 20px;
+}
+
+.about-text h3, .about-skills h3 {
+    font-size: 24px;
+    color: #2C3E50; /* Dark blue-grey */
+    margin-bottom: 15px;
+}
+
+.about-text ul, .about-skills ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.about-text ul li, .about-skills ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Projects Section */
+#projects {
+    background-color: #f9f9f9;
+    color: #34495E;
+    padding: 60px 0;
+}
+
+.projects-container {
+    text-align: center;
+}
+
+.projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.project-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px
+}
